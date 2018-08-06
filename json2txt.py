@@ -55,7 +55,7 @@ def conv(d):
 
 
 all = []
-root_dir = '/home/makseq/Documents/haydegger/'
+root_dir = 'path_to_js_files'  # path to .js files from litres
 for f in sorted(os.listdir(root_dir)):
     if os.path.isdir(root_dir + '/' + f):
         continue
